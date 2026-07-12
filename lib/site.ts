@@ -4,7 +4,7 @@ export const site = {
   shortName: "Rainy Days · Kiso",
   url: "https://kiso-rainy-days.vercel.app",
   description:
-    "Visiting the Kiso Valley in the quiet season? When it rains, spend a slow afternoon shaping nerikiri — seasonal Japanese sweets — by an irori hearth in an old kura storehouse. Run out of Kashiwaya, Nagiso.",
+    "The Nakasendo's seasons, captured in a sweet. An indoor nerikiri workshop in the Kiso Valley: shape seasonal Japanese sweets by an irori hearth in an old kura storehouse, then eat them with matcha. Run out of Kashiwaya, Nagiso.",
   locality: "Nagiso",
   region: "Nagano",
   country: "JP",
