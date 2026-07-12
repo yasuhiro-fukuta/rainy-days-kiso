@@ -91,8 +91,8 @@ export default function Home() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               className="sm"
-              src="/assets/kura.jpg"
-              alt="Inside the old kura storehouse, timber beams and tansu chests"
+              src="/assets/tea_service.jpg"
+              alt="Your host kneeling on the tatami, whisking a bowl of matcha"
             />
           </div>
         </div>
@@ -119,6 +119,73 @@ export default function Home() {
             Ours change with whatever the Kiso is doing outside the window that
             day. Which, when it&rsquo;s raining, tends to be rather beautiful.
           </p>
+        </div>
+        <div className="wrap seasons">
+          <p className="lead serif-em">
+            A few of ours from this year &mdash; whatever the season hands us.
+          </p>
+          <div className="strip">
+            <figure>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/assets/nerikiri_ajisai.jpg"
+                alt="Ajisai nerikiri — white sweets topped with jewel-blue hydrangea petals of kingyoku jelly"
+                loading="lazy"
+              />
+              <figcaption>
+                <span className="kanji">紫陽花</span> Hydrangea &mdash; the June
+                rains
+              </figcaption>
+            </figure>
+            <figure>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/assets/nerikiri_himawari.jpg"
+                alt="Himawari nerikiri — bright yellow sunflower sweets on a blue-and-white plate"
+                loading="lazy"
+              />
+              <figcaption>
+                <span className="kanji">向日葵</span> Sunflower &mdash; high
+                summer
+              </figcaption>
+            </figure>
+            <figure>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/assets/nerikiri_hanabi.jpg"
+                alt="Hanabi nerikiri — pastel sweets patterned like fireworks bursting"
+                loading="lazy"
+              />
+              <figcaption>
+                <span className="kanji">花火</span> Fireworks &mdash; festival
+                nights
+              </figcaption>
+            </figure>
+            <figure>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/assets/nerikiri_kiku.jpg"
+                alt="Kiku nerikiri — pale pink chrysanthemum sweets, petals drawn with a wooden blade"
+                loading="lazy"
+              />
+              <figcaption>
+                <span className="kanji">菊</span> Chrysanthemum &mdash; deep
+                autumn
+              </figcaption>
+            </figure>
+            <figure>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/assets/nerikiri_usagi.jpg"
+                alt="Usagi nerikiri — two little rabbit-shaped sweets on a black plate"
+                loading="lazy"
+              />
+              <figcaption>
+                <span className="kanji">月兎</span> Moon rabbit &mdash;
+                moon-viewing
+              </figcaption>
+            </figure>
+          </div>
         </div>
       </section>
 

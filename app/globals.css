@@ -82,6 +82,13 @@ section{padding:clamp(66px,10vw,120px) 0}
 
 .whatis{background:var(--washi-2)}
 .whatis .inner{max-width:760px}
+.whatis .seasons{margin-top:clamp(44px,6vw,68px)}
+.seasons .lead{font-size:clamp(16px,1.8vw,18px); color:#5A6560; margin:0 0 22px}
+.seasons .strip{display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:14px}
+.seasons figure{margin:0}
+.seasons img{width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:5px}
+.seasons figcaption{margin-top:9px; font-size:12.5px; line-height:1.5; color:#5A6560}
+.seasons .kanji{font-family:var(--serif); font-size:14.5px; color:var(--ink); margin-right:5px}
 .whatis h2{margin:0 0 26px}
 .whatis p{color:#3A4441; font-size:clamp(17px,1.9vw,19px); margin:0 0 18px}
 .whatis .jp{font-family:var(--serif); color:var(--sakura); font-style:italic}
@@ -126,6 +133,8 @@ footer ul a:hover{color:#fff}
 
 @media (max-width:860px){
   .challenge .grid{grid-template-columns:1fr; gap:36px}
+  .seasons .strip{display:flex; overflow-x:auto; gap:12px; margin:0 -24px; padding:0 24px 8px; scroll-snap-type:x mandatory; -webkit-overflow-scrolling:touch}
+  .seasons figure{flex:0 0 56vw; max-width:280px; scroll-snap-align:start}
   .bonus .top{grid-template-columns:1fr}
   .bonus .art{min-height:230px}
   .footer-top{grid-template-columns:1fr 1fr}
