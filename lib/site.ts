@@ -16,5 +16,4 @@ export const site = {
     "https://wa.me/819038392354?text=Hi%21%20We%27d%20like%20to%20book%20the%20Nerikiri%20Challenge%20in%20the%20Kiso.%20Our%20dates%20are%3A",
   email: "ravnicaguild@gmail.com",
   instagram: "https://www.instagram.com/murabito_bikes",
-  ebikeSite: "https://kiso-ebike-lp.vercel.app/",
 } as const;

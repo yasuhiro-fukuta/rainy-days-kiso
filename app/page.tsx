@@ -14,7 +14,6 @@ export default function Home() {
             <span className="menu-links">
               <a href="#challenge">The Challenge</a>
               <a href="#whatis">What&rsquo;s nerikiri</a>
-              <a href="#bonus">Shower Cycling</a>
             </span>
             <a href="#book" className="book">
               Reserve
@@ -223,60 +222,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bonus reveal" id="bonus">
-        <div className="wrap">
-          <div className="card">
-            <div className="top">
-              <div className="copy">
-                <p className="eyebrow">Bonus round</p>
-                <h2>
-                  Rather be <em>outdoors</em>?
-                </h2>
-                <p>
-                  The Nerikiri Challenge is our indoor day. Some people would
-                  rather ride straight through whatever the sky is doing &mdash;
-                  that&rsquo;s a whole different kind of fun, and it has its own
-                  home.
-                </p>
-                <p>
-                  Our fat-tyre e-bikes don&rsquo;t care if it&rsquo;s pouring or
-                  snowing. Pull on a rashguard, ride the valley&rsquo;s hidden
-                  gorges, and let the weather be part of the day. We call it{" "}
-                  <span className="name">Shower Cycling</span>.
-                </p>
-                <div className="cta-row">
-                  <a
-                    href={site.ebikeSite}
-                    target="_blank"
-                    rel="noopener"
-                    className="btn btn-primary"
-                  >
-                    See Shower Cycling <span className="arrow">&rarr;</span>
-                  </a>
-                </div>
-              </div>
-              <div className="art">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/assets/ebike.jpg"
-                  alt="Two black fat-tyre MOVE e-bikes, ready to ride in any weather"
-                />
-              </div>
-            </div>
-            <div className="wide">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/assets/gorge.jpg"
-                alt="Emerald river gorge in the Kiso Valley"
-              />
-              <span className="cap">
-                Where it takes you &mdash; the hidden gorges of the Kiso.
-              </span>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <footer>
         <div className="wrap footer-top">
           <div>
@@ -285,8 +230,8 @@ export default function Home() {
               Rainy Days · Kiso
             </div>
             <p className="about">
-              Slow, hands-on things to do when the weather turns in the Kiso
-              Valley. Run out of Kashiwaya guesthouse, Nagiso, Nagano.
+              A slow, hands-on wagashi workshop in the Kiso Valley. Run out of
+              Kashiwaya guesthouse, Nagiso, Nagano.
             </p>
           </div>
           <div>
@@ -297,9 +242,6 @@ export default function Home() {
               </li>
               <li>
                 <a href="#whatis">What&rsquo;s nerikiri</a>
-              </li>
-              <li>
-                <a href="#bonus">Shower Cycling</a>
               </li>
               <li>
                 <a href="#book">Reserve</a>
@@ -317,11 +259,6 @@ export default function Home() {
               </li>
               <li>
                 <a href={`tel:${site.phone}`}>{site.phoneDisplay}</a>
-              </li>
-              <li>
-                <a href={site.ebikeSite} target="_blank" rel="noopener">
-                  Beyond Nakasendo Cycling
-                </a>
               </li>
             </ul>
           </div>
