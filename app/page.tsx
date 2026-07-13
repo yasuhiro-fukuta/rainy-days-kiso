@@ -27,18 +27,17 @@ export default function Home() {
         <div className="hero-bg" />
         <div id="rain" aria-hidden="true" />
         <div className="wrap hero-inner">
-          <p className="place">Nagiso · Kiso Valley · Japan&rsquo;s quiet season</p>
+          <p className="place">Nagiso · Kiso Valley · On the old Nakasendo</p>
           <h1>
-            Enjoy the rain.
+            The Nakasendo&rsquo;s Seasons,
             <br />
-            <span className="warm serif-em">The crowds never do.</span>
+            <span className="warm serif-em">Captured in a Sweet</span>
           </h1>
           <p className="sub">
-            You chose the quiet season on purpose &mdash; fewer people, slower
-            days, kinder prices. So when the clouds settle over the Kiso,
-            don&rsquo;t wait them out. Spend a soft grey afternoon by the hearth,
-            shaping little seasonal sweets with your own hands. We call it the
-            Nerikiri Challenge.
+            An indoor, hands-on workshop by the hearth of a century-old
+            storehouse: shape nerikiri &mdash; the delicate seasonal sweets of
+            the Japanese tea ceremony &mdash; with your own hands, then eat them
+            with a bowl of matcha. We call it the Nerikiri Challenge.
           </p>
           <div className="cta-row">
             <a href="#challenge" className="btn btn-primary">
@@ -63,9 +62,10 @@ export default function Home() {
               petal, with a local guiding your hands.
             </p>
             <p>
-              Then you sit and eat your own little work with a bowl of matcha
-              while the rain keeps up outside. Unhurried, warm, and about as far
-              from a tour-bus queue as a day in Japan can get.
+              Then you sit and eat your own little work with a bowl of matcha.
+              Everything happens indoors, whatever the sky is doing &mdash;
+              unhurried, warm, and about as far from a tour-bus queue as a day
+              in Japan can get.
             </p>
             <div className="meta">
               <span>&asymp; 2 hours</span>
@@ -91,8 +91,8 @@ export default function Home() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               className="sm"
-              src="/assets/kura.jpg"
-              alt="Inside the old kura storehouse, timber beams and tansu chests"
+              src="/assets/tea_service.jpg"
+              alt="Your host kneeling on the tatami, whisking a bowl of matcha"
             />
           </div>
         </div>
@@ -116,9 +116,77 @@ export default function Home() {
             before matcha, made to be as lovely to look at as they are to eat.
           </p>
           <p>
-            Ours change with whatever the Kiso is doing outside the window that
-            day. Which, when it&rsquo;s raining, tends to be rather beautiful.
+            Ours follow the seasons of the old Nakasendo &mdash; hydrangea in
+            the June rains, sunflowers in high summer, chrysanthemum as the
+            maples turn.
           </p>
+        </div>
+        <div className="wrap seasons">
+          <p className="lead serif-em">
+            A few of ours from this year &mdash; whatever the season hands us.
+          </p>
+          <div className="strip">
+            <figure>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/assets/nerikiri_ajisai.jpg"
+                alt="Ajisai nerikiri — white sweets topped with jewel-blue hydrangea petals of kingyoku jelly"
+                loading="lazy"
+              />
+              <figcaption>
+                <span className="kanji">紫陽花</span> Hydrangea &mdash; the June
+                rains
+              </figcaption>
+            </figure>
+            <figure>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/assets/nerikiri_himawari.jpg"
+                alt="Himawari nerikiri — bright yellow sunflower sweets on a blue-and-white plate"
+                loading="lazy"
+              />
+              <figcaption>
+                <span className="kanji">向日葵</span> Sunflower &mdash; high
+                summer
+              </figcaption>
+            </figure>
+            <figure>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/assets/nerikiri_hanabi.jpg"
+                alt="Hanabi nerikiri — pastel sweets patterned like fireworks bursting"
+                loading="lazy"
+              />
+              <figcaption>
+                <span className="kanji">花火</span> Fireworks &mdash; festival
+                nights
+              </figcaption>
+            </figure>
+            <figure>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/assets/nerikiri_kiku.jpg"
+                alt="Kiku nerikiri — pale pink chrysanthemum sweets, petals drawn with a wooden blade"
+                loading="lazy"
+              />
+              <figcaption>
+                <span className="kanji">菊</span> Chrysanthemum &mdash; deep
+                autumn
+              </figcaption>
+            </figure>
+            <figure>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/assets/nerikiri_usagi.jpg"
+                alt="Usagi nerikiri — two little rabbit-shaped sweets on a black plate"
+                loading="lazy"
+              />
+              <figcaption>
+                <span className="kanji">月兎</span> Moon rabbit &mdash;
+                moon-viewing
+              </figcaption>
+            </figure>
+          </div>
         </div>
       </section>
 
@@ -132,9 +200,9 @@ export default function Home() {
           </p>
           <span className="highlight">Please reserve about a month ahead.</span>
           <p>
-            Book it when you plan your trip, not when the rain starts &mdash;
-            think of it as your rainy-day insurance. In the quiet season, the
-            odds of getting your soft grey afternoon are good.
+            Book it when you plan your trip. The workshop is entirely indoors,
+            so it keeps its place in your itinerary whatever the weather
+            decides to do.
           </p>
           <div className="cta-row">
             <a href={site.whatsapp} className="btn btn-primary">
@@ -162,12 +230,13 @@ export default function Home() {
               <div className="copy">
                 <p className="eyebrow">Bonus round</p>
                 <h2>
-                  Rather be <em>out</em> in it?
+                  Rather be <em>outdoors</em>?
                 </h2>
                 <p>
-                  Some people don&rsquo;t want to come in out of the weather
-                  &mdash; they want to ride straight through it. That&rsquo;s a
-                  whole different kind of fun, and it has its own home.
+                  The Nerikiri Challenge is our indoor day. Some people would
+                  rather ride straight through whatever the sky is doing &mdash;
+                  that&rsquo;s a whole different kind of fun, and it has its own
+                  home.
                 </p>
                 <p>
                   Our fat-tyre e-bikes don&rsquo;t care if it&rsquo;s pouring or

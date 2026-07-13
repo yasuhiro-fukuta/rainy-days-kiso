@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
     default:
-      "Rainy Days in the Kiso — Enjoy the rain. Shape Japanese sweets by the hearth.",
+      "Rainy Days in the Kiso — The Nakasendo's Seasons, Captured in a Sweet",
     template: "%s · Rainy Days in the Kiso",
   },
   description: site.description,
@@ -41,9 +41,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: site.name,
-    title: "Rainy Days in the Kiso — Enjoy the rain",
+    title: "The Nakasendo's Seasons, Captured in a Sweet",
     description:
-      "A slow, crowd-free rainy afternoon in the Kiso Valley: shape seasonal Japanese sweets by the hearth, then eat them with matcha. The Nerikiri Challenge, in Nagiso.",
+      "An indoor, hands-on workshop in the Kiso Valley: shape seasonal Japanese sweets by the hearth, then eat them with matcha. The Nerikiri Challenge, in Nagiso.",
     url: site.url,
     locale: "en_US",
     images: [
@@ -57,9 +57,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rainy Days in the Kiso — Enjoy the rain",
+    title: "The Nakasendo's Seasons, Captured in a Sweet",
     description:
-      "Shape seasonal Japanese sweets by the hearth on a rainy afternoon in the Kiso Valley. The Nerikiri Challenge, in Nagiso.",
+      "Shape seasonal Japanese sweets by the hearth, indoors in the Kiso Valley. The Nerikiri Challenge, in Nagiso.",
     images: ["/assets/misty_mountain_banner.jpg"],
   },
   robots: {
@@ -77,7 +77,7 @@ const jsonLd = {
       "@id": `${site.url}/#attraction`,
       name: "The Nerikiri Challenge",
       description:
-        "A hands-on rainy-day workshop in the Kiso Valley: shape nerikiri, the delicate seasonal Japanese sweets served with matcha, by an irori hearth inside a century-old kura storehouse in Nagiso.",
+        "A hands-on indoor workshop in the Kiso Valley: shape nerikiri, the delicate seasonal Japanese sweets served with matcha, by an irori hearth inside a century-old kura storehouse in Nagiso.",
       url: site.url,
       image: `${site.url}/assets/wagashi.jpg`,
       isAccessibleForFree: false,
