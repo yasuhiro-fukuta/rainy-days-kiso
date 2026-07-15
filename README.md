@@ -1,7 +1,6 @@
 # Rainy Days in the Kiso
 
-Landing page for a rainy-day activity in the Kiso Valley (Nagiso, Nagano) — the **Nerikiri Challenge** —
-with a cross-sell to the sister site, *Beyond Nakasendo Cycling* ("Shower Cycling").
+Landing page for the **Nerikiri Challenge** — an indoor wagashi (nerikiri) workshop in the Kiso Valley (Nagiso, Nagano).
 
 Built with **Next.js 14 (App Router) + TypeScript**, matching the stack of `kiso-ebike-lp`.
 

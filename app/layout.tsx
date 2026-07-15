@@ -103,7 +103,7 @@ const jsonLd = {
       url: site.url,
       email: site.email,
       telephone: site.phone,
-      sameAs: [site.instagram, site.ebikeSite],
+      sameAs: [site.instagram],
       address: {
         "@type": "PostalAddress",
         addressLocality: site.locality,
