@@ -94,6 +94,15 @@ section{padding:clamp(66px,10vw,120px) 0}
 .whatis .jp{font-family:var(--serif); color:var(--sakura); font-style:italic}
 .whatis .rule{width:56px; height:2px; background:var(--ember); margin:0 0 30px}
 
+.teacher{background:var(--washi)}
+.teacher .grid{display:grid; grid-template-columns:.85fr 1.15fr; gap:clamp(32px,6vw,72px); align-items:center}
+.teacher .portrait{margin:0}
+.teacher .portrait img{width:100%; aspect-ratio:3/4; object-fit:cover; border-radius:5px}
+.teacher .portrait figcaption{margin-top:10px; font-size:12.5px; color:#5A6560}
+.teacher h2{margin-bottom:22px}
+.teacher .body p{color:#3A4441; margin:0 0 18px; max-width:52ch}
+.teacher .jp-term{font-family:var(--serif); font-style:italic; color:var(--sakura)}
+
 .book-sec{background:var(--cedar); color:#fff; text-align:center}
 .book-sec .inner{max-width:640px; margin:0 auto}
 .book-sec h2{color:#fff; margin-bottom:20px}
@@ -118,6 +127,8 @@ footer ul a:hover{color:#fff}
 
 @media (max-width:860px){
   .challenge .grid{grid-template-columns:1fr; gap:36px}
+  .teacher .grid{grid-template-columns:1fr; gap:32px}
+  .teacher .portrait{max-width:420px}
   .seasons .strip{display:flex; overflow-x:auto; gap:12px; margin:0 -24px; padding:0 24px 8px; scroll-snap-type:x mandatory; -webkit-overflow-scrolling:touch}
   .seasons figure{flex:0 0 56vw; max-width:280px; scroll-snap-align:start}
   .footer-top{grid-template-columns:1fr 1fr}

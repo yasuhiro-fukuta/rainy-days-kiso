@@ -14,6 +14,7 @@ export default function Home() {
             <span className="menu-links">
               <a href="#challenge">The Challenge</a>
               <a href="#whatis">What&rsquo;s nerikiri</a>
+              <a href="#teacher">Your teacher</a>
             </span>
             <a href="#book" className="book">
               Reserve
@@ -90,8 +91,8 @@ export default function Home() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               className="sm"
-              src="/assets/tea_service.jpg"
-              alt="Your host kneeling on the tatami, whisking a bowl of matcha"
+              src="/assets/kura.jpg"
+              alt="Inside the old kura storehouse, timber beams and tansu chests"
             />
           </div>
         </div>
@@ -189,6 +190,47 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="teacher reveal" id="teacher">
+        <div className="wrap grid">
+          <figure className="portrait">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/assets/tea_service.jpg"
+              alt="Makiko Koide kneeling on the tatami, whisking a bowl of matcha for a guest"
+            />
+            <figcaption>Makiko, serving matcha in the tatami room.</figcaption>
+          </figure>
+          <div className="body">
+            <p className="eyebrow">Your teacher</p>
+            <h2>Meet Makiko Koide</h2>
+            <p>
+              Makiko was born in a town along the old Kiso Road &mdash; the
+              mountain highway whose seasons now shape her sweets.
+            </p>
+            <p>
+              It was Kyoto&rsquo;s nerikiri that set her course: she was struck
+              by how much flavour and beauty could live in something so small.
+              Two years of confectionery school followed, then a national
+              confectioner&rsquo;s licence{" "}
+              <span className="jp-term">(seika eiseishi)</span>, then three
+              years of apprenticeship in Tokyo.
+            </p>
+            <p>
+              Now she is back home, raising her children and shaping this
+              workshop so that people passing through the Kiso can meet
+              nerikiri for themselves. Her craft doesn&rsquo;t stop at the
+              sweets &mdash; the old house, kept as it felt a century ago, and
+              the unhurried time you spend in it are part of the work too.
+            </p>
+            <div className="meta">
+              <span>Kiso born and raised</span>
+              <span>Licensed confectioner (seika eiseishi)</span>
+              <span>3 years&rsquo; training in Tokyo</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="book-sec reveal" id="book">
         <div className="wrap inner">
           <p className="eyebrow on-dark">One thing to know</p>
@@ -242,6 +284,9 @@ export default function Home() {
               </li>
               <li>
                 <a href="#whatis">What&rsquo;s nerikiri</a>
+              </li>
+              <li>
+                <a href="#teacher">Your teacher</a>
               </li>
               <li>
                 <a href="#book">Reserve</a>
