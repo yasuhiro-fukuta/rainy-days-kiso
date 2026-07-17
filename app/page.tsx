@@ -222,6 +222,21 @@ export default function Home() {
               sweets &mdash; the old house, kept as it felt a century ago, and
               the unhurried time you spend in it are part of the work too.
             </p>
+            <blockquote className="mkquote">
+              <p>
+                &ldquo;Nerikiri, as far as I know, hasn&rsquo;t changed &mdash;
+                not in the old days, not now. A few ingredients, a few simple
+                tools, and the rest is the maker&rsquo;s hands. It&rsquo;s a
+                craftsman&rsquo;s world &mdash; I&rsquo;m still learning it
+                myself.&rdquo;
+              </p>
+              <cite>&mdash; Makiko</cite>
+            </blockquote>
+            <p>
+              The workshop follows her lead: the same paste, the same few
+              tools &mdash; and your own two hands, finding out what they can
+              do.
+            </p>
             <div className="meta">
               <span>Kiso born and raised</span>
               <span>Licensed confectioner (seika eiseishi)</span>
