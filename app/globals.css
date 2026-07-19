@@ -55,9 +55,6 @@ header.nav.scrolled .navlinks a:hover{color:var(--ink)}
   background-image:linear-gradient(103deg, rgba(16,22,20,.82), rgba(16,22,20,.5) 58%, rgba(16,22,20,.32)),
                    linear-gradient(180deg, rgba(16,22,20,.28), rgba(16,22,20,.58)),
                    url('/assets/misty_mountain_banner.jpg')}
-#rain{position:absolute; inset:0; z-index:1; pointer-events:none; opacity:.42}
-.rain-drop{position:absolute; top:-12%; width:1px; background:linear-gradient(to bottom, rgba(205,218,218,0), rgba(205,218,218,.5)); animation:fall linear infinite}
-@keyframes fall{to{transform:translateY(115vh)}}
 .hero::after{content:''; position:absolute; left:0; right:0; bottom:0; height:110px; background:linear-gradient(to bottom, rgba(241,236,226,0), var(--washi)); z-index:3; pointer-events:none}
 .hero-inner{position:relative; z-index:4; padding:clamp(74px,14vh,160px) 0 clamp(96px,16vh,170px)}
 .hero .place{font-size:13px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--mist-soft); margin:0 0 26px}

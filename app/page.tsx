@@ -25,7 +25,6 @@ export default function Home() {
 
       <section className="hero" id="top">
         <div className="hero-bg" />
-        <div id="rain" aria-hidden="true" />
         <div className="wrap hero-inner">
           <p className="place">Nagiso · Kiso Valley · On the old Nakasendo</p>
           <h1>
