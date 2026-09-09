@@ -1,8 +1,8 @@
 // Central config. Update SITE_URL to your final Vercel/custom domain after first deploy.
 export const site = {
-  name: "Rainy Days in the Kiso",
-  shortName: "Rainy Days · Kiso",
-  url: "https://kiso-rainy-days.vercel.app",
+  name: "Nakasendo Indoors",
+  shortName: "Nakasendo · Indoors",
+  url: "https://rainy-days-kiso.vercel.app",
   description:
     "The Nakasendo's seasons, captured in a sweet. An indoor nerikiri workshop in the Kiso Valley: shape seasonal Japanese sweets by an irori hearth in an old kura storehouse, then eat them with matcha. Run out of Kashiwaya, Nagiso.",
   locality: "Nagiso",

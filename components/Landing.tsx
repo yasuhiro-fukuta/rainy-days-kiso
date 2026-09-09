@@ -46,6 +46,16 @@ const COPY = {
       altBig: "Two hand-shaped nerikiri sweets on a wooden plate",
       altIrori: "The irori hearth room, hanging pot hook and shoji screens",
       altKura: "Inside the old kura storehouse, timber beams and tansu chests",
+      morning: {
+        eyebrow: "For early risers",
+        h3: "The Morning Session",
+        p: "From 8:30 to 9:30 in the morning, while the storehouse is still quiet — a one-hour sitting where the sweets you shape become your treat after breakfast. Guests staying at Kashiwaya get free pick-up and drop-off.",
+        chips: [
+          "8:30–9:30 am",
+          "Your after-breakfast sweet",
+          "Free shuttle for Kashiwaya guests",
+        ],
+      },
     },
     whatis: {
       eyebrow: "First time hearing the word?",
@@ -140,7 +150,7 @@ const COPY = {
       explore: "Explore",
       connect: "Connect",
       emailUs: "Email us",
-      copyright: "© 2026 Rainy Days in the Kiso · From Scratch LLC",
+      copyright: "© 2026 Nakasendo Indoors · From Scratch LLC",
       location: "Nagiso, Nagano, Japan",
     },
   },
@@ -173,6 +183,12 @@ const COPY = {
       p2: "仕上げは、自分の作品を抹茶とともに。すべて屋内で行うので、空模様は気になりません。急がず、あたたかく、観光バスの行列からいちばん遠い一日を。",
       chips: ["約2時間", "屋内・囲炉裏ばた", "経験不問", "抹茶付き", "ご家族歓迎"],
       altBig: "木の皿に載せた手づくりの練り切り2つ",
+      morning: {
+        eyebrow: "朝の部、はじめます",
+        h3: "モーニング・セッション",
+        p: "朝8時半から9時半まで、蔵がいちばん静かな時間の1時間コース。自分で形づくった練り切りを、朝ごはんのあとのおやつにどうぞ。柏屋にご宿泊のお客様は、無料送迎付きです。",
+        chips: ["朝8:30–9:30", "朝食後のおやつに", "柏屋宿泊者は無料送迎"],
+      },
       altIrori: "囲炉裏の間。自在鉤と障子",
       altKura: "古い蔵の内部。梁と箪笥",
     },
@@ -257,7 +273,7 @@ const COPY = {
       explore: "メニュー",
       connect: "連絡先",
       emailUs: "メール",
-      copyright: "© 2026 Rainy Days in the Kiso · From Scratch LLC",
+      copyright: "© 2026 Nakasendo Indoors · From Scratch LLC",
       location: "長野県南木曽町",
     },
   },
@@ -271,7 +287,7 @@ export default function Landing({ lang }: { lang: Lang }) {
         <div className="wrap bar">
           <a href="#top" className="brand">
             <span className="dot" />
-            Rainy Days · Kiso
+            {site.shortName}
           </a>
           <nav className="navlinks">
             <span className="menu-links">
@@ -334,6 +350,22 @@ export default function Landing({ lang }: { lang: Lang }) {
             <img className="sm" src="/assets/irori.jpg" alt={t.challenge.altIrori} />
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img className="sm" src="/assets/kura.jpg" alt={t.challenge.altKura} />
+          </div>
+        </div>
+        <div className="wrap morning">
+          <div className="mcard">
+            <div className="mhead">
+              <p className="eyebrow">{t.challenge.morning.eyebrow}</p>
+              <h3>{t.challenge.morning.h3}</h3>
+            </div>
+            <div className="mbody">
+              <p>{t.challenge.morning.p}</p>
+              <div className="meta">
+                {t.challenge.morning.chips.map((c) => (
+                  <span key={c}>{c}</span>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -422,7 +454,7 @@ export default function Landing({ lang }: { lang: Lang }) {
           <div>
             <div className="brand">
               <span className="dot" />
-              Rainy Days · Kiso
+              {site.shortName}
             </div>
             <p className="about">{t.footer.about}</p>
           </div>

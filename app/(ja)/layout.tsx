@@ -7,8 +7,8 @@ import "../globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "Rainy Days in the Kiso — 中山道の四季を、ひとつの和菓子に。",
-    template: "%s · Rainy Days in the Kiso",
+    default: "Nakasendo Indoors — 中山道の四季を、ひとつの和菓子に。",
+    template: "%s · Nakasendo Indoors",
   },
   description:
     "中山道・木曽路の四季を、ひとつの和菓子に。囲炉裏のある築100年の蔵で練り切りづくりを体験し、抹茶とともに味わう屋内ワークショップ「ねりきりチャレンジ」。長野県南木曽町・柏屋にて。",

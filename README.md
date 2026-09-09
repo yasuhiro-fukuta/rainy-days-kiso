@@ -1,6 +1,6 @@
-# Rainy Days in the Kiso
+# Nakasendo Indoors
 
-Landing page for the **Nerikiri Challenge** — an indoor wagashi (nerikiri) workshop in the Kiso Valley (Nagiso, Nagano).
+Landing page for **Nakasendo Indoors** and its **Nerikiri Challenge** — an indoor wagashi (nerikiri) workshop in the Kiso Valley (Nagiso, Nagano). English at `/`, Japanese at `/ja`.
 
 Built with **Next.js 14 (App Router) + TypeScript**, matching the stack of `kiso-ebike-lp`.
 

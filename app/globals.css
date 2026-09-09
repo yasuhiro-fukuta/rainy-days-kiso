@@ -81,6 +81,16 @@ section{padding:clamp(66px,10vw,120px) 0}
 .photostack .big{grid-column:1/-1; aspect-ratio:16/10}
 .photostack .sm{aspect-ratio:1/1}
 
+.challenge .morning{margin-top:clamp(36px,5vw,56px)}
+.morning .mcard{border:1px solid var(--line); background:#fff; border-radius:6px; padding:clamp(26px,3.5vw,44px); display:grid; grid-template-columns:.75fr 1.25fr; gap:clamp(24px,4vw,56px); align-items:start}
+.morning .mhead .eyebrow{margin-bottom:12px}
+.morning .mhead h3{font-family:var(--serif); font-weight:400; font-size:clamp(26px,3vw,36px); line-height:1.15; margin:0; text-wrap:balance}
+.morning .mbody p{color:#3A4441; margin:0 0 18px; max-width:56ch}
+.morning .mbody .meta{margin-top:0}
+@media (max-width:860px){
+  .morning .mcard{grid-template-columns:1fr; gap:18px}
+}
+
 .whatis{background:var(--washi-2)}
 .whatis .inner{max-width:760px}
 .whatis .seasons{margin-top:clamp(44px,6vw,68px)}
