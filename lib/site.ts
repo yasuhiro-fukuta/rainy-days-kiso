@@ -2,7 +2,7 @@
 export const site = {
   name: "Nakasendo Indoors",
   shortName: "Nakasendo · Indoors",
-  url: "https://rainy-days-kiso.vercel.app",
+  url: "https://nakasendo-indoors.vercel.app",
   description:
     "The Nakasendo's seasons, captured in a sweet. An indoor nerikiri workshop in the Kiso Valley: shape seasonal Japanese sweets by an irori hearth in an old kura storehouse, then eat them with matcha. Run out of Kashiwaya, Nagiso.",
   locality: "Nagiso",

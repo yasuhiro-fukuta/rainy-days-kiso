@@ -3,11 +3,10 @@
 Next.js 14 (App Router) + TypeScript LP for the Nerikiri Challenge, an indoor
 wagashi workshop in Nagiso. English at `/`, Japanese at `/ja` (all copy lives
 in one en/ja dictionary in `components/Landing.tsx`). Deployed on Vercel
-(project `rainy-days-kiso`, scope `yakkuns-projects`).
-
-The owner may rename the Vercel project to match the brand (e.g.
-`nakasendo-indoors`); if the production URL changes, update `lib/site.ts`
-`url` and the URLs in this file to match.
+(project `nakasendo-indoors`, scope `yakkuns-projects` — renamed from
+`rainy-days-kiso` in 2026-09; the GitHub repo keeps the old name, which is
+fine). Old `rainy-days-kiso*.vercel.app` URLs are dead or frozen — never
+share them.
 
 ## Deployment workflow (owner's standing instruction, 2026-07)
 
@@ -18,10 +17,10 @@ When the owner requests a change:
    (`git push origin <work-branch>:staging --force-with-lease` — staging only
    ever mirrors the latest proposal, so force-updating it is expected).
 3. Reply with the staging preview link:
-   https://rainy-days-kiso-git-staging-yakkuns-projects.vercel.app
+   https://nakasendo-indoors-git-staging-yakkuns-projects.vercel.app
 4. Wait for the owner's explicit approval (e.g. 「本番化して」「承認」).
 5. On approval: open a PR to `main`, merge it, and reply with the production
-   link: https://rainy-days-kiso.vercel.app
+   link: https://nakasendo-indoors.vercel.app
 
 Do not merge to `main` without that approval. Vercel auto-deploys every
 branch push (previews) and `main` (production).
