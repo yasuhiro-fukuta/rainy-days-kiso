@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
     default:
-      "Rainy Days in the Kiso — The Nakasendo's Seasons, Captured in a Sweet",
-    template: "%s · Rainy Days in the Kiso",
+      "Nakasendo Indoors — The Nakasendo's Seasons, Captured in a Sweet",
+    template: "%s · Nakasendo Indoors",
   },
   description: site.description,
   keywords: [
-    "Kiso Valley rainy day",
+    "Nakasendo indoor experience",
     "Nagiso things to do",
     "nerikiri experience Japan",
     "Japanese sweets workshop",

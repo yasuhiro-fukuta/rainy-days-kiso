@@ -1,8 +1,12 @@
-# Rainy Days in the Kiso — working notes for Claude
+# Nakasendo Indoors — working notes for Claude
 
 Next.js 14 (App Router) + TypeScript LP for the Nerikiri Challenge, an indoor
-wagashi workshop in Nagiso. Deployed on Vercel (project `rainy-days-kiso`,
-scope `yakkuns-projects`).
+wagashi workshop in Nagiso. English at `/`, Japanese at `/ja` (all copy lives
+in one en/ja dictionary in `components/Landing.tsx`). Deployed on Vercel
+(project `nakasendo-indoors`, scope `yakkuns-projects` — renamed from
+`rainy-days-kiso` in 2026-09; the GitHub repo keeps the old name, which is
+fine). Old `rainy-days-kiso*.vercel.app` URLs are dead or frozen — never
+share them.
 
 ## Deployment workflow (owner's standing instruction, 2026-07)
 
@@ -13,10 +17,10 @@ When the owner requests a change:
    (`git push origin <work-branch>:staging --force-with-lease` — staging only
    ever mirrors the latest proposal, so force-updating it is expected).
 3. Reply with the staging preview link:
-   https://rainy-days-kiso-git-staging-yakkuns-projects.vercel.app
+   https://nakasendo-indoors-git-staging-yakkuns-projects.vercel.app
 4. Wait for the owner's explicit approval (e.g. 「本番化して」「承認」).
 5. On approval: open a PR to `main`, merge it, and reply with the production
-   link: https://rainy-days-kiso.vercel.app
+   link: https://nakasendo-indoors.vercel.app
 
 Do not merge to `main` without that approval. Vercel auto-deploys every
 branch push (previews) and `main` (production).
@@ -27,11 +31,16 @@ settings — only the owner can change that setting.
 
 ## Copy guidelines
 
-- Hero tagline: "The Nakasendo's Seasons, Captured in a Sweet".
-- Emphasize that the workshop is indoors; do not build copy around
-  "enjoy the rain" framing. Brand name "Rainy Days · Kiso" stays.
+- Brand: "Nakasendo Indoors" (renamed from "Rainy Days · Kiso", 2026-09).
+  Positioning is "the Nakasendo's indoor experience", not a rainy-day
+  activity — do not build copy around weather framing.
+- Hero tagline: "The Nakasendo's Seasons, Captured in a Sweet" /
+  「中山道の四季を、ひとつの和菓子に。」
 - The e-bike / Shower Cycling cross-sell was deliberately removed (2026-07);
   do not reintroduce it.
+- Offerings: the main ~2h session (Wednesdays, bookings from Nov 2026) and
+  the Morning Session, 8:30–9:30 — sweets as the after-breakfast treat,
+  free shuttle for guests staying at Kashiwaya.
 
 ## Photos
 
