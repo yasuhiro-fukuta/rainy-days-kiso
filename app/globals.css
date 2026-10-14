@@ -122,6 +122,13 @@ section{padding:clamp(66px,10vw,120px) 0}
 .book-sec h2{color:#fff; margin-bottom:20px}
 .book-sec p{color:rgba(255,255,255,.82); margin:0 auto 16px; max-width:50ch}
 .book-sec .highlight{display:inline-block; font-family:var(--serif); font-size:clamp(24px,3.4vw,34px); color:var(--ember-soft); margin:8px 0 24px}
+.book-sec .pricing{margin:6px auto 30px; max-width:430px; border:1px solid rgba(255,255,255,.2); border-radius:6px; padding:20px 24px 16px; text-align:left}
+.book-sec .pricing .tag{display:inline-block; font-size:12px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--cedar); background:var(--ember-soft); padding:4px 10px; border-radius:2px; margin-bottom:12px}
+.book-sec .pricing .row{display:flex; align-items:baseline; gap:12px; padding:8px 0; border-bottom:1px dashed rgba(255,255,255,.16)}
+.book-sec .pricing .row .label{flex:1; color:rgba(255,255,255,.88); font-size:14.5px}
+.book-sec .pricing .was{color:rgba(255,255,255,.45); text-decoration:line-through; font-size:14px}
+.book-sec .pricing .now{font-family:var(--serif); font-size:23px; color:var(--ember-soft); font-variant-numeric:tabular-nums}
+.book-sec .pricing .example{font-size:13px; color:rgba(255,255,255,.62); margin:12px 0 0; max-width:none; text-align:left}
 .book-sec .cta-row{display:flex; gap:14px; justify-content:center; flex-wrap:wrap; margin-top:12px}
 .book-sec .talk{margin-top:26px; font-size:14.5px; color:var(--mist-soft)}
 .book-sec .talk a{color:var(--ember-soft); font-weight:600}
