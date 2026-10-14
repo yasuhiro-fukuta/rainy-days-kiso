@@ -139,6 +139,14 @@ const COPY = {
       schedule: "From November 2026, we take bookings for Wednesdays.",
       highlight: "Please reserve about a month ahead.",
       p2: "Book it when you plan your trip. The workshop is entirely indoors, so it keeps its place in your itinerary whatever the weather decides to do.",
+      pricing: {
+        tag: "Opening offer",
+        rows: [
+          { label: "Base fee (per group)", was: "¥6,000", now: "¥4,000" },
+          { label: "Per person", was: "¥6,000", now: "¥4,000" },
+        ],
+        example: "e.g. two of you: ¥4,000 + ¥4,000 × 2 = ¥12,000",
+      },
       ctaWhatsApp: "Reserve on WhatsApp",
       ctaEmail: "Email us",
       talkPrefix: "Or call / text ",
@@ -262,6 +270,14 @@ const COPY = {
       schedule: "2026年11月より、毎週水曜日に受付しています。",
       highlight: "ご予約は、1ヶ月前を目安にお願いします。",
       p2: "旅の計画と一緒にご予約を。完全屋内なので、当日の天気に旅程を左右されることはありません。",
+      pricing: {
+        tag: "オープンキャンペーン価格",
+        rows: [
+          { label: "基本料金(1グループ)", was: "¥6,000", now: "¥4,000" },
+          { label: "お一人につき", was: "¥6,000", now: "¥4,000" },
+        ],
+        example: "例: 2名さま → ¥4,000 + ¥4,000×2 = ¥12,000",
+      },
       ctaWhatsApp: "WhatsAppで予約する",
       ctaEmail: "メールで問い合わせ",
       talkPrefix: "お電話・SMSは ",
@@ -430,6 +446,17 @@ export default function Landing({ lang }: { lang: Lang }) {
           <p>{t.book.schedule}</p>
           <span className="highlight">{t.book.highlight}</span>
           <p>{t.book.p2}</p>
+          <div className="pricing">
+            <span className="tag">{t.book.pricing.tag}</span>
+            {t.book.pricing.rows.map((r) => (
+              <div className="row" key={r.label}>
+                <span className="label">{r.label}</span>
+                <span className="was">{r.was}</span>
+                <span className="now">{r.now}</span>
+              </div>
+            ))}
+            <p className="example">{t.book.pricing.example}</p>
+          </div>
           <div className="cta-row">
             <a href={site.whatsapp} className="btn btn-primary">
               {t.book.ctaWhatsApp} <span className="arrow">&rarr;</span>
