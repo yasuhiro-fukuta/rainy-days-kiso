@@ -142,10 +142,10 @@ const COPY = {
       pricing: {
         tag: "Opening offer",
         rows: [
-          { label: "Base fee (per group)", was: "¥6,000", now: "¥4,000" },
-          { label: "Per person", was: "¥6,000", now: "¥4,000" },
+          { label: "Base fee (per group)", was: "¥3,000", now: "¥2,000" },
+          { label: "Per person", was: "¥3,000", now: "¥2,000" },
         ],
-        example: "e.g. two of you: ¥4,000 + ¥4,000 × 2 = ¥12,000",
+        example: "e.g. two of you: ¥2,000 + ¥2,000 × 2 = ¥6,000",
       },
       ctaWhatsApp: "Reserve on WhatsApp",
       ctaEmail: "Email us",
@@ -273,10 +273,10 @@ const COPY = {
       pricing: {
         tag: "オープンキャンペーン価格",
         rows: [
-          { label: "基本料金(1グループ)", was: "¥6,000", now: "¥4,000" },
-          { label: "お一人につき", was: "¥6,000", now: "¥4,000" },
+          { label: "基本料金(1グループ)", was: "¥3,000", now: "¥2,000" },
+          { label: "お一人につき", was: "¥3,000", now: "¥2,000" },
         ],
-        example: "例: 2名さま → ¥4,000 + ¥4,000×2 = ¥12,000",
+        example: "例: 2名さま → ¥2,000 + ¥2,000×2 = ¥6,000",
       },
       ctaWhatsApp: "WhatsAppで予約する",
       ctaEmail: "メールで問い合わせ",
