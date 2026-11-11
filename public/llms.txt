@@ -1,31 +1,24 @@
-# Rainy Days in the Kiso
+# Nakasendo Indoors
 
-> A slow, crowd-free rainy-day activity in the Kiso Valley (Nagiso, Nagano, Japan).
-> Run out of Kashiwaya guesthouse by From Scratch LLC. Sister project to Beyond Nakasendo Cycling.
+> The Nakasendo's indoor experience: the Nerikiri Challenge, a hands-on wagashi (Japanese sweets) workshop
+> in Nagiso, Kiso Valley, Nagano, Japan. Run out of Kashiwaya guesthouse by From Scratch LLC.
 
-Rainy Days in the Kiso helps travellers enjoy a wet day in the Kiso Valley instead of waiting it out.
-The site is written for visitors who come in Japan's quiet off-season and prefer slow, uncrowded travel —
-typically families and couples from Europe, North America and Australia.
+## The Nerikiri Challenge
 
-## The flagship activity
-
-- **The Nerikiri Challenge**: a hands-on workshop, about 2 hours, held indoors by an irori hearth inside a
-  century-old kura storehouse. Guests shape nerikiri — delicate seasonal Japanese sweets (sweetened
-  white-bean paste, hand-shaped into flowers, leaves and fruit) — with a local guide, then eat their own
-  creation with a bowl of matcha. All skill levels, family-friendly, matcha included.
-- **Booking**: reserve about one month ahead. Nerikiri is made fresh in small batches and the bean paste is
-  prepared by hand before guests arrive. Book via WhatsApp, email, or phone.
-
-## Bonus / cross-sell
-
-- **Shower Cycling**: for travellers who would rather ride through the weather than shelter from it —
-  fat-tyre e-bikes through the valley's gorges in rain or snow. Run by the sister project, Beyond Nakasendo
-  Cycling: https://kiso-ebike-lp.vercel.app/
+- What: shape nerikiri — delicate seasonal Japanese sweets made from white-bean paste — by an irori hearth
+  inside a century-old kura storehouse, then eat them with matcha.
+- Teacher: Makiko Koide, Kiso-born licensed confectioner (seika eiseishi), 3 years' training in Tokyo.
+  Interpreted into English. No experience needed; families welcome.
+- Length: about 2 hours. Also a one-hour Morning Session, 8:30–9:30 (free shuttle for Kashiwaya guests).
+- Days: any day of the week.
+- Booking: at least 2 days ahead. First message us on WhatsApp or LINE with your preferred date and group size.
+- Price (opening offer): ¥2,000 per group + ¥2,000 per person (e.g. ¥6,000 for two).
+- Entirely indoors, so it works in any weather.
 
 ## Contact
 
-- Location: Nagiso, Kiso Valley, Nagano, Japan
-- WhatsApp / phone: +81 90-3839-2354
+- WhatsApp / phone: +81 90-3839-2354 (https://wa.me/819038392354)
+- LINE: https://line.me/R/ti/p/@847fhmne
 - Email: ravnicaguild@gmail.com
-- Instagram: https://www.instagram.com/murabito_bikes
-- Operator: From Scratch LLC (Kashiwaya guesthouse)
+- Location: Kashiwaya, Nagiso, Kiso Valley, Nagano, Japan (on the old Nakasendo, near Tsumago and Magome)
+- Website: https://nakasendo-indoors.vercel.app/ (Japanese: /ja)

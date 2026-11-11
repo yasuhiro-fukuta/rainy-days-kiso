@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   },
   description: site.description,
   keywords: [
+    "wagashi making experience",
+    "nerikiri workshop Kiso",
+    "things to do Tsumago Magome",
     "Nakasendo indoor experience",
     "Nagiso things to do",
     "nerikiri experience Japan",

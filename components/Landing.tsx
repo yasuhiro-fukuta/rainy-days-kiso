@@ -136,8 +136,8 @@ const COPY = {
       eyebrow: "One thing to know",
       h2: "This one takes a little planning.",
       p1: "Nerikiri is made fresh in small batches, and the bean paste is prepared by hand before you arrive.",
-      schedule: "From November 2026, we take bookings for Wednesdays.",
-      highlight: "Please reserve about a month ahead.",
+      schedule: "Any day of the week. First, send us your preferred date and group size on WhatsApp or LINE — we check with Makiko and reply with the details.",
+      highlight: "Book at least 2 days ahead.",
       p2: "Book it when you plan your trip. The workshop is entirely indoors, so it keeps its place in your itinerary whatever the weather decides to do.",
       pricing: {
         tag: "Opening offer",
@@ -148,6 +148,7 @@ const COPY = {
         example: "e.g. two of you: ¥2,000 + ¥2,000 × 2 = ¥6,000",
       },
       ctaWhatsApp: "Reserve on WhatsApp",
+      ctaLine: "Message us on LINE",
       ctaEmail: "Email us",
       talkPrefix: "Or call / text ",
       talkSuffix: ". English is fine.",
@@ -267,8 +268,8 @@ const COPY = {
       eyebrow: "ひとつだけ、お願い",
       h2: "この体験は、少し前もって。",
       p1: "練り切りは少量ずつの手づくり。餡も、お越しに合わせて手で仕込みます。",
-      schedule: "2026年11月より、毎週水曜日に受付しています。",
-      highlight: "ご予約は、1ヶ月前を目安にお願いします。",
+      schedule: "曜日は問いません。まずはWhatsAppかLINEで、ご希望の日と人数をお送りください。講師の予定を確かめて、詳しくご案内します。",
+      highlight: "ご予約は、2日前までにお願いします。",
       p2: "旅の計画と一緒にご予約を。完全屋内なので、当日の天気に旅程を左右されることはありません。",
       pricing: {
         tag: "オープンキャンペーン価格",
@@ -279,6 +280,7 @@ const COPY = {
         example: "例: 2名さま → ¥2,000 + ¥2,000×2 = ¥6,000",
       },
       ctaWhatsApp: "WhatsAppで予約する",
+      ctaLine: "LINEで予約する",
       ctaEmail: "メールで問い合わせ",
       talkPrefix: "お電話・SMSは ",
       talkSuffix: " へどうぞ。",
@@ -458,8 +460,14 @@ export default function Landing({ lang }: { lang: Lang }) {
             <p className="example">{t.book.pricing.example}</p>
           </div>
           <div className="cta-row">
-            <a href={site.whatsapp} className="btn btn-primary">
+            <a
+              href={lang === "ja" ? site.whatsappJa : site.whatsapp}
+              className="btn btn-primary"
+            >
               {t.book.ctaWhatsApp} <span className="arrow">&rarr;</span>
+            </a>
+            <a href={site.line} className="btn btn-ghost on-dark">
+              {t.book.ctaLine}
             </a>
             <a
               href={`mailto:${site.email}?subject=Nerikiri%20Challenge%20booking`}
@@ -505,6 +513,14 @@ export default function Landing({ lang }: { lang: Lang }) {
           <div>
             <h4>{t.footer.connect}</h4>
             <ul>
+              <li>
+                <a href={lang === "ja" ? site.whatsappJa : site.whatsapp}>
+                  WhatsApp
+                </a>
+              </li>
+              <li>
+                <a href={site.line}>LINE</a>
+              </li>
               <li>
                 <a href={site.instagram}>Instagram</a>
               </li>

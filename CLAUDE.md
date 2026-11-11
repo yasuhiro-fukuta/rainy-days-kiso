@@ -72,7 +72,9 @@ settings — only the owner can change that setting.
   「中山道の四季を、ひとつの和菓子に。」
 - The e-bike / Shower Cycling cross-sell was deliberately removed (2026-07);
   do not reintroduce it.
-- Offerings: the main ~2h session (Wednesdays, bookings from Nov 2026) and
+- Offerings: the main ~2h session (any day of the week since 2026-11-12;
+  book at least 2 days ahead; guests first message on WhatsApp or LINE,
+  same flow as the e-bikes) and
   the Morning Session, 8:30–9:30 — sweets as the after-breakfast treat,
   free shuttle for guests staying at Kashiwaya.
 
