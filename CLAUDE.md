@@ -54,7 +54,7 @@ When the owner requests a change:
    https://nakasendo-indoors-git-staging-yakkuns-projects.vercel.app
 4. Wait for the owner's explicit approval (e.g. 「本番化して」「承認」).
 5. On approval: open a PR to `main`, merge it, and reply with the production
-   link: https://nakasendo-indoors.vercel.app
+   link: https://nakasendo-indoors.com (the old nakasendo-indoors.vercel.app 308-redirects here)
 
 Do not merge to `main` without that approval. Vercel auto-deploys every
 branch push (previews) and `main` (production).
