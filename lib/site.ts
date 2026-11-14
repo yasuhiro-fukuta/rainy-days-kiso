@@ -1,8 +1,8 @@
-// Central config. Update SITE_URL to your final Vercel/custom domain after first deploy.
+// Central config. Production domain: nakasendo-indoors.com (bought 2026-11-13; the vercel.app URL redirects here).
 export const site = {
   name: "Nakasendo Indoors",
   shortName: "Nakasendo · Indoors",
-  url: "https://nakasendo-indoors.vercel.app",
+  url: "https://nakasendo-indoors.com",
   description:
     "The Nakasendo's seasons, captured in a sweet. An indoor nerikiri workshop in the Kiso Valley: shape seasonal Japanese sweets by an irori hearth in an old kura storehouse, then eat them with matcha. Run out of Kashiwaya, Nagiso.",
   locality: "Nagiso",
