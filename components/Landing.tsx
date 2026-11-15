@@ -48,11 +48,11 @@ const COPY = {
       altKura: "Inside the old kura storehouse, timber beams and tansu chests",
       morning: {
         eyebrow: "For early risers",
-        h3: "The Morning Session",
-        p: "From 8:30 to 9:30 in the morning, while the storehouse is still quiet — a one-hour sitting where the sweets you shape become your treat after breakfast. Guests staying at Kashiwaya get free pick-up and drop-off.",
+        h3: "The Early Morning Session",
+        p: "From 7 to 8 in the morning, while the storehouse is still quiet — a one-hour sitting where the sweets you shape and a bowl of matcha start your day. Book at least 2 days ahead. Guests staying at Kashiwaya get free pick-up and drop-off.",
         chips: [
-          "8:30–9:30 am",
-          "Your after-breakfast sweet",
+          "7–8 am",
+          "A sweet start to your day",
           "Free shuttle for Kashiwaya guests",
         ],
       },
@@ -194,9 +194,9 @@ const COPY = {
       altBig: "木の皿に載せた手づくりの練り切り2つ",
       morning: {
         eyebrow: "朝の部、はじめます",
-        h3: "モーニング・セッション",
-        p: "朝8時半から9時半まで、蔵がいちばん静かな時間の1時間コース。自分で形づくった練り切りを、朝ごはんのあとのおやつにどうぞ。柏屋にご宿泊のお客様は、無料送迎付きです。",
-        chips: ["朝8:30–9:30", "朝食後のおやつに", "柏屋宿泊者は無料送迎"],
+        h3: "アーリーモーニング・セッション",
+        p: "朝7時から8時まで、蔵がいちばん静かな時間の1時間コース。自分で形づくった練り切りと抹茶で、一日をはじめましょう。ご予約は2日前までにお願いします。柏屋にご宿泊のお客様は、無料送迎付きです。",
+        chips: ["朝7:00–8:00", "一日のはじまりに", "柏屋宿泊者は無料送迎"],
       },
       altIrori: "囲炉裏の間。自在鉤と障子",
       altKura: "古い蔵の内部。梁と箪笥",

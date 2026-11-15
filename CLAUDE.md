@@ -75,7 +75,7 @@ settings — only the owner can change that setting.
 - Offerings: the main ~2h session (any day of the week since 2026-11-12;
   book at least 2 days ahead; guests first message on WhatsApp or LINE,
   same flow as the e-bikes) and
-  the Morning Session, 8:30–9:30 — sweets as the after-breakfast treat,
+  the Early Morning Session, 7–8 am (changed 2026-11-16; book 2 days ahead) — sweets and matcha to start the day,
   free shuttle for guests staying at Kashiwaya.
 
 ## Photos
