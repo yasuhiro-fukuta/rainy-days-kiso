@@ -73,6 +73,7 @@ settings — only the owner can change that setting.
 - The e-bike / Shower Cycling cross-sell was deliberately removed (2026-07);
   do not reintroduce it.
 - Format (2026-11-16 owner decision): the teacher visits the guest's inn; Kashiwaya's kura/irori is shown as an example venue for Kashiwaya guests.
+- Schedule (2026-11-16 owner decision): dates are by arrangement (要相談). The teacher can do 7–8 am on 2 days' notice; other times need about a month. Booking is only via WhatsApp/LINE.
 - Offerings: the main ~2h session (any day of the week since 2026-11-12;
   book at least 2 days ahead; guests first message on WhatsApp or LINE,
   same flow as the e-bikes) and

@@ -138,8 +138,8 @@ const COPY = {
       eyebrow: "One thing to know",
       h2: "This one takes a little planning.",
       p1: "Nerikiri is made fresh in small batches, and the bean paste is prepared by hand before you arrive.",
-      schedule: "Any day of the week. First, send us your preferred date, group size and the inn you’re staying at on WhatsApp or LINE — we check with Makiko that she can come to you, and reply with the details.",
-      highlight: "Book at least 2 days ahead.",
+      schedule: "Dates are by arrangement. First, send us your preferred date, group size and the inn you’re staying at on WhatsApp or LINE — we check with Makiko that she can come to you, and reply with the details.",
+      highlight: "Early Morning Session (7–8 am): book at least 2 days ahead. Other times: please ask as early as you can.",
       p2: "Book it when you plan your trip. The workshop is entirely indoors, so it keeps its place in your itinerary whatever the weather decides to do.",
       pricing: {
         tag: "Opening offer",
@@ -270,8 +270,8 @@ const COPY = {
       eyebrow: "ひとつだけ、お願い",
       h2: "この体験は、少し前もって。",
       p1: "練り切りは少量ずつの手づくり。餡も、お越しに合わせて手で仕込みます。",
-      schedule: "曜日は問いません。まずはWhatsAppかLINEで、ご希望の日・人数・お泊まりの宿をお送りください。講師が伺えるか確かめて、詳しくご案内します。",
-      highlight: "ご予約は、2日前までにお願いします。",
+      schedule: "日程はご相談のうえで決めます。まずはWhatsAppかLINEで、ご希望の日・人数・お泊まりの宿をお送りください。講師が伺えるか確かめて、詳しくご案内します。",
+      highlight: "朝7〜8時のアーリーモーニング・セッションは2日前まで。それ以外の時間は、できるだけ早めにご相談ください。",
       p2: "旅の計画と一緒にご予約を。完全屋内なので、当日の天気に旅程を左右されることはありません。",
       pricing: {
         tag: "オープンキャンペーン価格",
