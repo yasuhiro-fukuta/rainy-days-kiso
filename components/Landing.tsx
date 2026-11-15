@@ -20,7 +20,7 @@ const COPY = {
       place: "Nagiso · Kiso Valley · On the old Nakasendo",
       h1a: "The Nakasendo’s Seasons,",
       h1b: "Captured in a Sweet",
-      sub: "An indoor, hands-on workshop by the hearth of a century-old storehouse: shape nerikiri — the delicate seasonal sweets of the Japanese tea ceremony — with your own hands, then eat them with a bowl of matcha. We call it the Nerikiri Challenge.",
+      sub: "A hands-on wagashi workshop that comes to you: our teacher visits the inn where you’re staying, and you shape nerikiri — the delicate seasonal sweets of the Japanese tea ceremony — with your own hands, then eat them with a bowl of matcha. We call it the Nerikiri Challenge.",
       cta1: "The Nerikiri Challenge",
       cta2: "How to reserve",
     },
@@ -29,27 +29,29 @@ const COPY = {
       h2: "The Nerikiri Challenge",
       p1: (
         <>
-          By an <em>irori</em> hearth, inside a century-old <em>kura</em>{" "}
-          storehouse, you&rsquo;ll shape nerikiri &mdash; the delicate seasonal
-          sweets served at Japanese tea ceremonies &mdash; petal by petal, with
-          a local guiding your hands.
+          Our teacher comes to the inn where you&rsquo;re staying. Right there,
+          you&rsquo;ll shape nerikiri &mdash; the delicate seasonal sweets served
+          at Japanese tea ceremonies &mdash; petal by petal, with a local guiding
+          your hands. Staying at Kashiwaya? Then it happens by the{" "}
+          <em>irori</em> hearth of its century-old <em>kura</em> storehouse
+          (pictured).
         </>
       ),
-      p2: "Then you sit and eat your own little work with a bowl of matcha. Everything happens indoors, whatever the sky is doing — unhurried, warm, and about as far from a tour-bus queue as a day in Japan can get.",
+      p2: "Then you sit and eat your own little work with a bowl of matcha. No travel on your side, and it all happens indoors, whatever the sky is doing — unhurried, warm, and about as far from a tour-bus queue as a day in Japan can get.",
       chips: [
         "≈ 2 hours",
-        "Indoors, by the hearth",
+        "We come to your inn",
         "All skill levels",
         "Matcha included",
         "Family-friendly",
       ],
       altBig: "Two hand-shaped nerikiri sweets on a wooden plate",
-      altIrori: "The irori hearth room, hanging pot hook and shoji screens",
-      altKura: "Inside the old kura storehouse, timber beams and tansu chests",
+      altIrori: "At Kashiwaya: the irori hearth room, hanging pot hook and shoji screens",
+      altKura: "At Kashiwaya: inside the old kura storehouse, timber beams and tansu chests",
       morning: {
         eyebrow: "For early risers",
         h3: "The Early Morning Session",
-        p: "From 7 to 8 in the morning, while the storehouse is still quiet — a one-hour sitting where the sweets you shape and a bowl of matcha start your day. Book at least 2 days ahead.",
+        p: "From 7 to 8 in the morning, while your inn is still quiet — a one-hour sitting where the sweets you shape and a bowl of matcha start your day. Book at least 2 days ahead.",
         chips: [
           "7–8 am",
           "A sweet start to your day",
@@ -136,7 +138,7 @@ const COPY = {
       eyebrow: "One thing to know",
       h2: "This one takes a little planning.",
       p1: "Nerikiri is made fresh in small batches, and the bean paste is prepared by hand before you arrive.",
-      schedule: "Any day of the week. First, send us your preferred date and group size on WhatsApp or LINE — we check with Makiko and reply with the details.",
+      schedule: "Any day of the week. First, send us your preferred date, group size and the inn you’re staying at on WhatsApp or LINE — we check with Makiko that she can come to you, and reply with the details.",
       highlight: "Book at least 2 days ahead.",
       p2: "Book it when you plan your trip. The workshop is entirely indoors, so it keeps its place in your itinerary whatever the weather decides to do.",
       pricing: {
@@ -155,7 +157,7 @@ const COPY = {
     },
     footer: {
       about:
-        "A slow, hands-on wagashi workshop in the Kiso Valley. Run out of Kashiwaya guesthouse, Nagiso, Nagano.",
+        "A slow, hands-on wagashi workshop in the Kiso Valley. Based in Nagiso, Nagano — we come to your inn.",
       explore: "Explore",
       connect: "Connect",
       emailUs: "Email us",
@@ -177,7 +179,7 @@ const COPY = {
       place: "長野県南木曽町 · 木曽谷 · 旧中山道沿い",
       h1a: "中山道の四季を、",
       h1b: "ひとつの和菓子に。",
-      sub: "築100年余りの蔵、囲炉裏のそばで行う屋内・体験型ワークショップ。茶席に供される繊細な季節の上生菓子「練り切り」を自分の手で形づくり、抹茶とともに味わいます。名づけて「ねりきりチャレンジ」。",
+      sub: "講師がお泊まりの宿に伺う、体験型ワークショップ。茶席に供される繊細な季節の上生菓子「練り切り」を自分の手で形づくり、抹茶とともに味わいます。名づけて「ねりきりチャレンジ」。",
       cta1: "ねりきりチャレンジ",
       cta2: "予約方法",
     },
@@ -186,20 +188,20 @@ const COPY = {
       h2: "ねりきりチャレンジ",
       p1: (
         <>
-          囲炉裏のそば、築100年余りの蔵の中で。地元の作り手に手を添えてもらいながら、練り切りを花びら一枚ずつ、かたちづくっていきます。
+          講師がお泊まりの宿に伺います。その場で、地元の作り手に手を添えてもらいながら、練り切りを花びら一枚ずつ、かたちづくっていきます。柏屋にお泊まりなら、築100年余りの蔵の囲炉裏ばた（写真）が会場です。
         </>
       ),
-      p2: "仕上げは、自分の作品を抹茶とともに。すべて屋内で行うので、空模様は気になりません。急がず、あたたかく、観光バスの行列からいちばん遠い一日を。",
-      chips: ["約2時間", "屋内・囲炉裏ばた", "経験不問", "抹茶付き", "ご家族歓迎"],
+      p2: "仕上げは、自分の作品を抹茶とともに。移動はいらず、すべて屋内で行うので、空模様も気になりません。急がず、あたたかく、観光バスの行列からいちばん遠い一日を。",
+      chips: ["約2時間", "お泊まりの宿に伺います", "経験不問", "抹茶付き", "ご家族歓迎"],
       altBig: "木の皿に載せた手づくりの練り切り2つ",
       morning: {
         eyebrow: "朝の部、はじめます",
         h3: "アーリーモーニング・セッション",
-        p: "朝7時から8時まで、蔵がいちばん静かな時間の1時間コース。自分で形づくった練り切りと抹茶で、一日をはじめましょう。ご予約は2日前までにお願いします。",
+        p: "朝7時から8時まで、宿がまだ静かな時間の1時間コース。自分で形づくった練り切りと抹茶で、一日をはじめましょう。ご予約は2日前までにお願いします。",
         chips: ["朝7:00–8:00", "一日のはじまりに", "2日前までに予約"],
       },
-      altIrori: "囲炉裏の間。自在鉤と障子",
-      altKura: "古い蔵の内部。梁と箪笥",
+      altIrori: "柏屋の囲炉裏の間。自在鉤と障子",
+      altKura: "柏屋の古い蔵の内部。梁と箪笥",
     },
     whatis: {
       eyebrow: "はじめての方へ",
@@ -268,7 +270,7 @@ const COPY = {
       eyebrow: "ひとつだけ、お願い",
       h2: "この体験は、少し前もって。",
       p1: "練り切りは少量ずつの手づくり。餡も、お越しに合わせて手で仕込みます。",
-      schedule: "曜日は問いません。まずはWhatsAppかLINEで、ご希望の日と人数をお送りください。講師の予定を確かめて、詳しくご案内します。",
+      schedule: "曜日は問いません。まずはWhatsAppかLINEで、ご希望の日・人数・お泊まりの宿をお送りください。講師が伺えるか確かめて、詳しくご案内します。",
       highlight: "ご予約は、2日前までにお願いします。",
       p2: "旅の計画と一緒にご予約を。完全屋内なので、当日の天気に旅程を左右されることはありません。",
       pricing: {
@@ -287,7 +289,7 @@ const COPY = {
     },
     footer: {
       about:
-        "木曽谷・南木曽の宿「柏屋」発。手を動かして楽しむ、ゆったりとした和菓子ワークショップ。",
+        "木曽谷・南木曽から、お泊まりの宿に伺う、ゆったりとした和菓子ワークショップ。",
       explore: "メニュー",
       connect: "連絡先",
       emailUs: "メール",

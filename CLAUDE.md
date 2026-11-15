@@ -72,6 +72,7 @@ settings — only the owner can change that setting.
   「中山道の四季を、ひとつの和菓子に。」
 - The e-bike / Shower Cycling cross-sell was deliberately removed (2026-07);
   do not reintroduce it.
+- Format (2026-11-16 owner decision): the teacher visits the guest's inn; Kashiwaya's kura/irori is shown as an example venue for Kashiwaya guests.
 - Offerings: the main ~2h session (any day of the week since 2026-11-12;
   book at least 2 days ahead; guests first message on WhatsApp or LINE,
   same flow as the e-bikes) and
