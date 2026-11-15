@@ -4,7 +4,7 @@ export const site = {
   shortName: "Nakasendo · Indoors",
   url: "https://nakasendo-indoors.com",
   description:
-    "The Nakasendo's seasons, captured in a sweet. An indoor nerikiri workshop in the Kiso Valley: the teacher comes to your inn, and you shape seasonal Japanese sweets and eat them with matcha. Run out of Kashiwaya, Nagiso.",
+    "The Nakasendo's seasons, captured in a sweet. An indoor nerikiri workshop in the Kiso Valley: the teacher comes to your inn, and you shape seasonal Japanese sweets and eat them with matcha. Based in Nagiso.",
   locality: "Nagiso",
   region: "Nagano",
   country: "JP",
