@@ -49,11 +49,11 @@ const COPY = {
       morning: {
         eyebrow: "For early risers",
         h3: "The Early Morning Session",
-        p: "From 7 to 8 in the morning, while the storehouse is still quiet — a one-hour sitting where the sweets you shape and a bowl of matcha start your day. Book at least 2 days ahead. Guests staying at Kashiwaya get free pick-up and drop-off.",
+        p: "From 7 to 8 in the morning, while the storehouse is still quiet — a one-hour sitting where the sweets you shape and a bowl of matcha start your day. Book at least 2 days ahead.",
         chips: [
           "7–8 am",
           "A sweet start to your day",
-          "Free shuttle for Kashiwaya guests",
+          "Book 2 days ahead",
         ],
       },
     },
@@ -195,8 +195,8 @@ const COPY = {
       morning: {
         eyebrow: "朝の部、はじめます",
         h3: "アーリーモーニング・セッション",
-        p: "朝7時から8時まで、蔵がいちばん静かな時間の1時間コース。自分で形づくった練り切りと抹茶で、一日をはじめましょう。ご予約は2日前までにお願いします。柏屋にご宿泊のお客様は、無料送迎付きです。",
-        chips: ["朝7:00–8:00", "一日のはじまりに", "柏屋宿泊者は無料送迎"],
+        p: "朝7時から8時まで、蔵がいちばん静かな時間の1時間コース。自分で形づくった練り切りと抹茶で、一日をはじめましょう。ご予約は2日前までにお願いします。",
+        chips: ["朝7:00–8:00", "一日のはじまりに", "2日前までに予約"],
       },
       altIrori: "囲炉裏の間。自在鉤と障子",
       altKura: "古い蔵の内部。梁と箪笥",

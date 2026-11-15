@@ -76,7 +76,7 @@ settings — only the owner can change that setting.
   book at least 2 days ahead; guests first message on WhatsApp or LINE,
   same flow as the e-bikes) and
   the Early Morning Session, 7–8 am (changed 2026-11-16; book 2 days ahead) — sweets and matcha to start the day,
-  free shuttle for guests staying at Kashiwaya.
+  Do not advertise any shuttle/pick-up (owner decision 2026-11-09, removed 2026-11-16).
 
 ## Photos
 

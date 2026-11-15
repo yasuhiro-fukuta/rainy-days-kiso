@@ -52,7 +52,7 @@ export function buildJsonLd(lang: "en" | "ja") {
               ["どのくらい時間がかかりますか？", "メインの体験は約2時間です。朝7:00〜8:00の1時間のアーリーモーニング・セッションもあります。"],
               ["雨の日でもできますか？", "はい。囲炉裏のある蔵の中で行う完全屋内の体験です。"],
               ["英語で受けられますか？", "はい。英語で通訳します。経験は要りません。"],
-              ["場所はどこですか？", "長野県南木曽町、旧中山道沿いの宿「柏屋」です。柏屋にご宿泊の方はアーリーモーニング・セッションの送迎が無料です。"],
+              ["場所はどこですか？", "長野県南木曽町、旧中山道沿いの宿「柏屋」です。"],
             ]
           : [
               ["Which days can I join?", "Any day of the week. Message us your preferred date and group size on WhatsApp or LINE."],
@@ -61,7 +61,7 @@ export function buildJsonLd(lang: "en" | "ja") {
               ["How long does it take?", "The main workshop takes about 2 hours. There is also a one-hour Early Morning Session, 7–8 am."],
               ["Can I do it on a rainy day?", "Yes. It is entirely indoors, by an irori hearth in an old kura storehouse."],
               ["Is it in English?", "Yes. The workshop is interpreted into English, and no experience is needed."],
-              ["Where is it?", "At Kashiwaya guesthouse in Nagiso, on the old Nakasendo in the Kiso Valley, Nagano. Guests staying at Kashiwaya get a free shuttle for the Early Morning Session."],
+              ["Where is it?", "At Kashiwaya guesthouse in Nagiso, on the old Nakasendo in the Kiso Valley, Nagano."],
             ]
         ).map(([q, a]) => ({
           "@type": "Question",
