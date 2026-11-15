@@ -35,8 +35,8 @@ export function buildJsonLd(lang: "en" | "ja") {
           price: 2000,
           description:
             lang === "ja"
-              ? "基本料金1グループ¥2,000＋お一人¥2,000（オープンキャンペーン価格）。2日前までに要予約。"
-              : "¥2,000 per group plus ¥2,000 per person (opening offer). Book at least 2 days ahead.",
+              ? "基本料金1グループ¥2,000＋お一人¥2,000（オープンキャンペーン価格）。日程は要相談（朝7〜8時は2日前まで）。"
+              : "¥2,000 per group plus ¥2,000 per person (opening offer). Dates by arrangement (7–8 am session: book 2 days ahead).",
           url: `${lang === "ja" ? `${site.url}/ja` : site.url}#book`,
         },
       },
@@ -46,8 +46,8 @@ export function buildJsonLd(lang: "en" | "ja") {
         inLanguage: lang,
         mainEntity: (lang === "ja"
           ? [
-              ["何曜日に体験できますか？", "曜日は問いません。WhatsAppかLINEでご希望の日と人数をお送りください。"],
-              ["いつまでに予約が必要ですか？", "2日前までにご予約ください。練り切りの餡はお越しに合わせて手で仕込みます。"],
+              ["何曜日に体験できますか？", "日程はご相談のうえで決めます。WhatsAppかLINEでご希望の日と人数をお送りください。"],
+              ["いつまでに予約が必要ですか？", "朝7〜8時のアーリーモーニング・セッションは2日前まで。それ以外の時間は、できるだけ早めにご相談ください。"],
               ["料金はいくらですか？", "オープンキャンペーン価格で、基本料金1グループ¥2,000＋お一人¥2,000です。2名さまなら¥6,000。"],
               ["どのくらい時間がかかりますか？", "メインの体験は約2時間です。朝7:00〜8:00の1時間のアーリーモーニング・セッションもあります。"],
               ["雨の日でもできますか？", "はい。囲炉裏のある蔵の中で行う完全屋内の体験です。"],
@@ -55,8 +55,8 @@ export function buildJsonLd(lang: "en" | "ja") {
               ["場所はどこですか？", "長野県南木曽町、旧中山道沿いの宿「柏屋」です。"],
             ]
           : [
-              ["Which days can I join?", "Any day of the week. Message us your preferred date and group size on WhatsApp or LINE."],
-              ["How far ahead do I need to book?", "At least 2 days ahead. The bean paste is prepared by hand for your visit."],
+              ["Which days can I join?", "Dates are by arrangement. Message us your preferred date and group size on WhatsApp or LINE."],
+              ["How far ahead do I need to book?", "The Early Morning Session (7–8 am) needs at least 2 days. For other times, ask as early as you can."],
               ["How much does it cost?", "Opening offer: ¥2,000 per group plus ¥2,000 per person — ¥6,000 for two."],
               ["How long does it take?", "The main workshop takes about 2 hours. There is also a one-hour Early Morning Session, 7–8 am."],
               ["Can I do it on a rainy day?", "Yes. It is entirely indoors, by an irori hearth in an old kura storehouse."],
