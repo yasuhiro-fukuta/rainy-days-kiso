@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: site.name,
     title: "The Nakasendo's Seasons, Captured in a Sweet",
     description:
-      "An indoor, hands-on workshop in the Kiso Valley: shape seasonal Japanese sweets by the hearth, then eat them with matcha. The Nerikiri Challenge, in Nagiso.",
+      "An indoor, hands-on workshop in the Kiso Valley: our teacher comes to your inn, you shape seasonal Japanese sweets and eat them with matcha. The Nerikiri Challenge, in Nagiso.",
     url: site.url,
     locale: "en_US",
     images: [
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "The Nakasendo's Seasons, Captured in a Sweet",
     description:
-      "Shape seasonal Japanese sweets by the hearth, indoors in the Kiso Valley. The Nerikiri Challenge, in Nagiso.",
+      "Our teacher comes to your inn: shape seasonal Japanese sweets, indoors in the Kiso Valley. The Nerikiri Challenge, in Nagiso.",
     images: ["/assets/misty_mountain_banner.jpg"],
   },
   robots: {

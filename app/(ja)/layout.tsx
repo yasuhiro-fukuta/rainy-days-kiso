@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: "%s · Nakasendo Indoors",
   },
   description:
-    "中山道・木曽路の四季を、ひとつの和菓子に。囲炉裏のある築100年の蔵で練り切りづくりを体験し、抹茶とともに味わう屋内ワークショップ「ねりきりチャレンジ」。長野県南木曽町・柏屋にて。",
+    "中山道・木曽路の四季を、ひとつの和菓子に。講師がお泊まりの宿に伺い、練り切りづくりを体験し、抹茶とともに味わう屋内ワークショップ「ねりきりチャレンジ」。長野県南木曽町・柏屋にて。",
   keywords: [
     "和菓子作り 体験 長野",
     "妻籠 馬籠 体験",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     siteName: site.name,
     title: "中山道の四季を、ひとつの和菓子に。",
     description:
-      "囲炉裏のある築100年の蔵で練り切りづくりを体験し、抹茶とともに味わう屋内ワークショップ。長野県南木曽町。",
+      "講師がお泊まりの宿に伺い、練り切りづくりを体験し、抹茶とともに味わう屋内ワークショップ。長野県南木曽町。",
     url: `${site.url}/ja`,
     locale: "ja_JP",
     images: [
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "中山道の四季を、ひとつの和菓子に。",
     description:
-      "囲炉裏のある築100年の蔵で練り切りづくり。抹茶とともに味わう屋内ワークショップ。長野県南木曽町。",
+      "講師がお泊まりの宿に伺う練り切りづくり。抹茶とともに味わう屋内ワークショップ。長野県南木曽町。",
     images: ["/assets/misty_mountain_banner.jpg"],
   },
   robots: {
