@@ -11,8 +11,8 @@ export function buildJsonLd(lang: "en" | "ja") {
           lang === "ja" ? "ねりきりチャレンジ" : "The Nerikiri Challenge",
         description:
           lang === "ja"
-            ? "講師がお泊まりの宿に伺う、木曽谷の体験型ワークショップ。抹茶とともに供される季節の上生菓子「練り切り」を手づくりします。長野県南木曽町。"
-            : "A hands-on wagashi workshop in the Kiso Valley that comes to you: the teacher visits your inn in Nagiso, and you shape nerikiri, the delicate seasonal Japanese sweets served with matcha.",
+            ? "講師と通訳がお泊まりの宿に伺う、木曽谷の体験型ワークショップ。抹茶とともに供される季節の上生菓子「練り切り」を手づくりします。長野県南木曽町。"
+            : "A hands-on wagashi workshop in the Kiso Valley that comes to you: the teacher and an interpreter visit your inn in Nagiso, and you shape nerikiri, the delicate seasonal Japanese sweets served with matcha.",
         url: lang === "ja" ? `${site.url}/ja` : site.url,
         image: `${site.url}/assets/wagashi.jpg`,
         isAccessibleForFree: false,
@@ -52,7 +52,7 @@ export function buildJsonLd(lang: "en" | "ja") {
               ["どのくらい時間がかかりますか？", "メインの体験は約2時間です。朝7:00〜8:00の1時間のアーリーモーニング・セッションもあります。"],
               ["雨の日でもできますか？", "はい。お泊まりの宿の中で行う完全屋内の体験です。"],
               ["英語で受けられますか？", "はい。英語で通訳します。経験は要りません。"],
-              ["場所はどこですか？", "講師が南木曽町内のお泊まりの宿に伺います。伺えるかは、ご予約のときに確かめます。柏屋にお泊まりなら、蔵の囲炉裏ばたで行います。"],
+              ["場所はどこですか？", "講師と通訳が南木曽町内のお泊まりの宿に伺います。伺えるかは、ご予約のときに確かめます。柏屋にお泊まりなら、蔵の囲炉裏ばたで行います。"],
             ]
           : [
               ["Which days can I join?", "Dates are by arrangement. Message us your preferred date and group size on WhatsApp or LINE."],
@@ -61,7 +61,7 @@ export function buildJsonLd(lang: "en" | "ja") {
               ["How long does it take?", "The main workshop takes about 2 hours. There is also a one-hour Early Morning Session, 7–8 am."],
               ["Can I do it on a rainy day?", "Yes. It is entirely indoors, at the inn where you are staying."],
               ["Is it in English?", "Yes. The workshop is interpreted into English, and no experience is needed."],
-              ["Where is it?", "Our teacher comes to the inn where you are staying, in Nagiso — we confirm when you request a date. Staying at Kashiwaya? Then it is by the irori hearth in its old kura storehouse."],
+              ["Where is it?", "Our teacher and an English interpreter come to the inn where you are staying, in Nagiso — we confirm when you request a date. Staying at Kashiwaya? Then it is by the irori hearth in its old kura storehouse."],
             ]
         ).map(([q, a]) => ({
           "@type": "Question",

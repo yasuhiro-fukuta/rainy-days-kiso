@@ -20,7 +20,7 @@ const COPY = {
       place: "Nagiso · Kiso Valley · On the old Nakasendo",
       h1a: "The Nakasendo’s Seasons,",
       h1b: "Captured in a Sweet",
-      sub: "A hands-on wagashi workshop that comes to you: our teacher visits the inn where you’re staying, and you shape nerikiri — the delicate seasonal sweets of the Japanese tea ceremony — with your own hands, then eat them with a bowl of matcha. We call it the Nerikiri Challenge.",
+      sub: "A hands-on wagashi workshop that comes to you: our teacher and an interpreter visit the inn where you’re staying, and you shape nerikiri — the delicate seasonal sweets of the Japanese tea ceremony — with your own hands, then eat them with a bowl of matcha. We call it the Nerikiri Challenge.",
       cta1: "The Nerikiri Challenge",
       cta2: "How to reserve",
     },
@@ -29,7 +29,7 @@ const COPY = {
       h2: "The Nerikiri Challenge",
       p1: (
         <>
-          Our teacher comes to the inn where you&rsquo;re staying. Right there,
+          Our teacher and an English interpreter come to the inn where you&rsquo;re staying. Right there,
           you&rsquo;ll shape nerikiri &mdash; the delicate seasonal sweets served
           at Japanese tea ceremonies &mdash; petal by petal, with a local guiding
           your hands. Staying at Kashiwaya? Then it happens by the{" "}
@@ -40,7 +40,7 @@ const COPY = {
       p2: "Then you sit and eat your own little work with a bowl of matcha. No travel on your side, and it all happens indoors, whatever the sky is doing — unhurried, warm, and about as far from a tour-bus queue as a day in Japan can get.",
       chips: [
         "≈ 2 hours",
-        "We come to your inn",
+        "Teacher + interpreter come to your inn",
         "All skill levels",
         "Matcha included",
         "Family-friendly",
@@ -179,7 +179,7 @@ const COPY = {
       place: "長野県南木曽町 · 木曽谷 · 旧中山道沿い",
       h1a: "中山道の四季を、",
       h1b: "ひとつの和菓子に。",
-      sub: "講師がお泊まりの宿に伺う、体験型ワークショップ。茶席に供される繊細な季節の上生菓子「練り切り」を自分の手で形づくり、抹茶とともに味わいます。名づけて「ねりきりチャレンジ」。",
+      sub: "講師と通訳がお泊まりの宿に伺う、体験型ワークショップ。茶席に供される繊細な季節の上生菓子「練り切り」を自分の手で形づくり、抹茶とともに味わいます。名づけて「ねりきりチャレンジ」。",
       cta1: "ねりきりチャレンジ",
       cta2: "予約方法",
     },
@@ -188,11 +188,11 @@ const COPY = {
       h2: "ねりきりチャレンジ",
       p1: (
         <>
-          講師がお泊まりの宿に伺います。その場で、地元の作り手に手を添えてもらいながら、練り切りを花びら一枚ずつ、かたちづくっていきます。柏屋にお泊まりなら、築100年余りの蔵の囲炉裏ばた（写真）が会場です。
+          講師と通訳がお泊まりの宿に伺います。その場で、地元の作り手に手を添えてもらいながら、練り切りを花びら一枚ずつ、かたちづくっていきます。柏屋にお泊まりなら、築100年余りの蔵の囲炉裏ばた（写真）が会場です。
         </>
       ),
       p2: "仕上げは、自分の作品を抹茶とともに。移動はいらず、すべて屋内で行うので、空模様も気になりません。急がず、あたたかく、観光バスの行列からいちばん遠い一日を。",
-      chips: ["約2時間", "お泊まりの宿に伺います", "経験不問", "抹茶付き", "ご家族歓迎"],
+      chips: ["約2時間", "講師と通訳が宿に伺います", "経験不問", "抹茶付き", "ご家族歓迎"],
       altBig: "木の皿に載せた手づくりの練り切り2つ",
       morning: {
         eyebrow: "朝の部、はじめます",
